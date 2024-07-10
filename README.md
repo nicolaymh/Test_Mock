@@ -10,6 +10,35 @@ Este proyecto contiene una simple aplicación de ejemplo que gestiona artículos
 
 ## Estructura del Proyecto 🏗️
 
+```Plaintext
+Test_Mock/
+├── Data/
+│ ├── Dependencias/
+│ ├── Interfaces/
+│ │ ├── IAutorRepository.cs
+│ │ ├── IArticulosRepository.cs
+│ ├── AutorRepository.cs
+│ ├── ArticulosRepository.cs
+├── Dominio/
+│ ├── Dependencias/
+│ ├── Service/
+│ │ ├── ArticulosServicio.cs
+├── DTOs/
+│ ├── Dependencias/
+│ ├── Articulo.cs
+├── Tests/
+│ ├── Dependencias/
+│ ├── UnitTest1.cs
+├── WebApi/
+│ ├── Connected Services/
+│ ├── Dependencias/
+│ ├── Properties/
+│ ├── Controllers/
+│ │ ├── ArticulosController.cs
+│ ├── appsettings.json
+│ ├── Program.cs
+```
+
 El proyecto está organizado en las siguientes capas:
 
 - **Data**: Contiene las interfaces y sus implementaciones para el acceso a datos.
